@@ -1,5 +1,5 @@
 # cheat_sheet_jh
-##File System Navigation
+## File System Navigation
 
 code | englisch | deutsch
 --- | --- | ---
