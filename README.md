@@ -9,13 +9,10 @@ code | englisch | deutsch
 *pwd*|Show the present working directory | Zeigt das aktuelle Arbeitsverzeichnis an
 *cd*|Change directory to some other location | Ändern Sie das Verzeichnis an einen anderen Ort
 *file*|View the type of any file | Zeigen Sie den Typ einer beliebigen Datei an
-
-##File System Manipulation
-
-code | englisch | deutsch
---- | --- | ---
-*touch* + . + Dateinendung| Create new File with fileextension | Neue Datei mit entsprechender Dateieendung erstellen
-*mkdir* |Create new directory | Neuen Ordner erstellen
-*cp* | Copy file or directory | Neuen Ordner oder neue Datei kopieren
-*mv* | Move or rename a file or directory | Ordner/Datei verschieben oder umbenennen
-
+*nano file*|Open a file (or create new one) in nano text editor | Öffnen Sie eine Datei (oder erstellen Sie eine neue) im Nano-Texteditor
+*vim file*|Open a file (or create new one) in vim text editor| Öffnen Sie eine Datei (oder erstellen Sie eine neue) im vim-Texteditor
+*rm or rmdir*|Remove a file or empty directory| Entfernen Sie eine Datei oder ein leeres Verzeichnis
+*rm -r*|Remove a directory that isn’t empty | Entfernen Sie ein Verzeichnis, das nicht leer ist
+*mv*|Move or rename a file or directory| Verschieben oder Umbenennen einer Datei oder eines Verzeichnisses
+*cp*|Copy a file or directory | Kopieren Sie eine Datei oder ein Verzeichnis
+*rsync*|Synchronize the changes of one directory to another | Synchronisieren Sie die Änderungen eines Verzeichnisses mit einem anderen
