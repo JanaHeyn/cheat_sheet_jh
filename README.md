@@ -17,6 +17,8 @@ code | englisch | deutsch
 *cd ..*|Change directory one level up | Eine Verzeichnisebene nach oben wechseln
 *cd -*|Change directory to the last path | Zum letzten Arbeitspfad wechseln
 
+---
+
 ## File Manipulation
 
 code | english | deutsch
@@ -36,8 +38,19 @@ code | english | deutsch
 *cat file*|View the contents of a file| Inhalt einer Datei anzeigen
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
 
+---
+
 ## Markdown
 
-Element | Markdown Syntax
----|---|
-Heading | 
+Heading 
+
+
+# H1
+## H2, ### H3, #### H4, ##### H5, ###### H6
+bold | ** bold text ** (ohne Leerzeichen zwischen Stern und Text)
+italic | * italicized text * (ohne Leerzeichen zwischen Stern und Text)
+blockquote | > blockquote
+ordered list | 1. item, 2. item, 3. item
+unordered list | - first item, - second item, - third item
+code | '`code`'
+
