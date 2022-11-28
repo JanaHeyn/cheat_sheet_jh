@@ -48,11 +48,12 @@ code | english | deutsch
 
 ***
 ***
+***
 
 ## Markdown
 
-### Heading
-```no-highlight (Codebloecke werden entweder mit 3 Backticks am Anfang und am Ende dargestellt oder mit 4 Leerzeichen vor der Raute. Das Verwenden der drei Backticks wird empfohlen. Zudem ist es nicht noetig, nach den Backticks Text zu schreiben, es dient nur der Vereinfachung und Darstellung.)
+### Header
+```
 # H1
 ## H2
 ### H3
@@ -69,7 +70,7 @@ Alt-H2
 ------
 ```
 
-Beispiele
+Darstellung:
 
 # H1
 ## H2
@@ -88,13 +89,10 @@ Alt-H2
 ***
 
 ### Emphasis
+```
+Italic/Kursiv mit *Sternchen* oder _Unterstrichen_
 
-
-```Codeblock Hervorhebungen
-
-Italic mit *Sternchen* oder _Unterstrichen_
-
-Bold mit zwei **Sternchen** oder __Unterstrichen__
+Bold/Fett mit zwei **Sternchen** oder __Unterstrichen__
 
 Italic und Bold kombiniert **_Sternchen_** und **_Unterstrichen_**
 oder auch so
@@ -107,10 +105,10 @@ Durchgestrichen mit zwei ~~Tilden~~
 Farbig hervorgehoben mit zwei ==Gleichzeichen==
 ```
 
-Beispiele
-Italic mit *Sternchen* oder _Unterstrichen_
+Darstellung:
+Italic/Kursiv mit *Sternchen* oder _Unterstrichen_
 
-Bold mit zwei **Sternchen** oder zwei __Unterstrichen__
+Bold/Fett mit zwei **Sternchen** oder zwei __Unterstrichen__
 
 Italic und Bold kombiniert **_Sternchen_** und **_Unterstrichen_**
 oder auch so
@@ -124,10 +122,9 @@ Farbig hervorgehoben mit zwei ==Gleichzeichen==
 ***
 
 ### Trennlinien
-
-Absätze werden dargetsellt mit 3 oder mehr
-
 ```
+Absätze werden wie folgt dargstellt mit 3 oder mehr
+
 ***
 Sternchen
 
@@ -138,8 +135,7 @@ ___
 Unterstriche
 ```
 
-Beispiele
-
+Darstellung:
 ***
 Sternchen
 
@@ -151,7 +147,6 @@ Unterstriche
 ***
 
 ### Line Breaks
-
 Hier startet der Text.
 
 Ich füge nun einen Absatz mit zwei Zeilenumbrüchen ein (zweimal Enter).
@@ -162,15 +157,14 @@ Mit Trennung durch einen Zeilenumbruch, ist der zweite Satz im Absatz separiert,
 ****
 
 ### Listen
-
-```Codeblock für Listen
-Ordered List (Geordnete Liste)
+```
+Ordered List (sortierte Liste)
 1. Erstes Element
 2. Zweites Element
 3. Drittes Element
   1. Erstes Element einer geordneten Unterliste
 
-Unordered List (Ungeordnete Liste)
+Unordered List (unsortierte Liste)
 - Erstes Element
 - Zweites Element
 - Drittes Element
@@ -178,14 +172,14 @@ Unordered List (Ungeordnete Liste)
 
 Aufzählungsstriche können mit Plus +, Sternchen * oder Bindestrichen - aufgeführt werden    
 ````
-Ordered List
+Darstellung:
+Ordered List (sortierte Liste)
 1. Erstes Element
 2. Zweites Element
 3. Drittes Element
     1. Erstes Element einer geordneten Unterliste
 
-
-Unordered List
+Unordered List (unsortierte Liste)
 - Erstes Element
 - Zweites Element
 - Drittes Element
@@ -201,11 +195,13 @@ Zitate können mit einem Rechtspfeil > eingefügt werden.
 > eingerückter Zitat 2
 ***
 
-### Tables
+### Tabellen
 ```
 | Spalte 1                | Spalte 2        | Spalte 3                 |
 |:------------------------|:---------------:|-------------------------:|
 | Spalte 1 links zentriert| Spalte 2 centred| Spalte 3 rechts zentriert|
+
+Mit einem Doppelpunkt rechts, links oder an beiden Seite innerhalb der Trennlinien wird die Ausrichtung des Textes bestimmt.
 
 Die äußeren Striche sind nicht nötig, siehe unten:
 
@@ -214,15 +210,15 @@ so      | gehts   | auch
 *Still* |`renders`| **nicely**
 1       | 2       | 3
 
-Mit einem Doppelpunkt rechts, links oder an beiden Seite innerhalb der Trennlinien wird die Ausrichtung des Textes bestimmt.
 ```
 
-Beispiel
+Darstellung:
 
 | Spalte 1                | Spalte 2        | Spalte 3                 |
 |:------------------------|:---------------:|-------------------------:|
 | Spalte 1 links zentriert| Spalte 2 centred| Spalte 3 rechts zentriert|
 
+Mit einem Doppelpunkt rechts, links oder an beiden Seite innerhalb der Trennlinien wird die Ausrichtung des Textes bestimmt.
 
 Die äußeren Striche sind nicht nötig, siehe unten:
 
@@ -232,15 +228,17 @@ so      | gehts   | auch
 1       | 2       | 3
 ***
 
-### Code and Syntax
+### Code und Syntax
 ```
-Inline `code` oder auch eine Zeile Code hat Backticks vorne und hinten.
+Inline `code` oder auch eine Zeile Code hat je einen Backtick vorne und hinten.
 ````
-Inline `code` oder auch eine Zeile Code hat Backticks vorne und hinten.
+Darstellung:
+Inline `code` oder auch eine Zeile Code hat je einen Backtick vorne und hinten.
 
-Codebloecke werden entweder mit 3 Backticks am Anfang und am Ende dargestellt oder mit 4 Leerzeichen vor der Raute. Das Verwenden der drei Backticks wird empfohlen. Zudem ist es nicht noetig, nach den Backticks Text zu schreiben, es dient nur der Vereinfachung und Darstellung.
-Doch wenn nach den Backticks "js" geschrieben wird, dann wird es automatisch als javascript erkannt und farblich hinterlegt.
-
+```
+Codebloecke bzw mehrere Zeilen Code, werden mit 3 Backticks am Anfang und am Ende des Paragraphs dargestellt.
+Wenn nach den Backticks die Progarmmiersparche steht, dann wird es automatisch erkannt und farblich hinterlegt.
+```
 
 Nach den Backticks nichts angegeben:
 ```
@@ -262,7 +260,7 @@ Einfachste Weise einen Link einzufügen:
 Titel des Link ins eckigen Klammern + Link in runden Klammern
 [Google](https://www.google.de/)
 
-Alternativ:
+Alternativ
 Sobald man mit der Maus über den Link hovert, wird Name angezeigt
 [Titel des Links] Link "Name"
 [Google](https://www.google.de/ "Name")
@@ -272,11 +270,12 @@ Man kann Links auch so darstellen
 https://www.google.de/ oder so
 <https://www.google.de/>
 ````
+Darstellung:
 Einfachste Weise einen Link einzufügen:
 [Google](https://www.google.de/)
 
-Alternativ:
-Sobald man mit der Maus über den Link hovert, wird Name angezeigt
+Alternativ
+Sobald man mit der Maus über den Link hovert, wird Name, in dem Fall Google, angezeigt.
 [Google](https://www.google.de/ "Google")
 
 Man kann Links auch so darstellen
@@ -288,12 +287,12 @@ https://www.google.de/ oder so
 ### Bilder
 ```
 Funktioniert ähnlich wie beim Link, davor wird ein Ausrufezeichen gesetzt gefolgt von eonem Akternativtext, falls das Bild nciht angeziegt werden kann.
-Google Logo:
+Google Logo
 
 ![Dies ist das Logo von Google](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 ```
-
-Google Logo:
+Darstellung:
+Google Logo
 
 ![Dies ist das Logo von Google](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 ***
