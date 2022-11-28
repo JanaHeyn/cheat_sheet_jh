@@ -196,6 +196,16 @@ Unordered List
 
 ***
 
+### Zitate
+````
+Zitate können mit einem Rechtspfeil > eingefügt werden.
+````
+> Zitat 1
+
+> eingerückter Zitat 2
+
+***
+
 ### Tables
 ```
 | Tables        | Are           | Cool  |
@@ -230,21 +240,18 @@ Markdown | Less | Pretty
 
 ### Code and Syntax
 ```
-Inline `code` hat Backticks vorne und hinten.
+Inline `code` oder auch eine Zeile Code hat Backticks vorne und hinten.
 ````
 Inline `code` hat Backticks vorne und hinten.
 
 Codebloecke werden entweder mit 3 Backticks am Anfang und am Ende dargestellt oder mit 4 Leerzeichen vor der Raute. Das Verwenden der drei Backticks wird empfohlen. Zudem ist es nicht noetig, nach den Backticks Text zu schreiben, es dient nur der Vereinfachung und Darstellung.
+Doch wenn nach den Backticks "js" geschrieben wird, dann wird es automatisch als javascript erkannt.
 
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+```js
+console.log("Hallo Welt");
+alert("Hello");
 ```
-
-javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
 
 
 ***
@@ -255,6 +262,12 @@ Einfachste Weise einen Link einzufügen
 [Titel des Links] Link
 [Google](https://www.google.de/)
 
+Alternativ:
+Sobald man mit der Maus über den Link hovert, wird Name angezeigt
+[Titel des Links] Link "Name"
+[Google](https://www.google.de/ "Name")
+
+
 Man kann Links auch so darstellen
 [link text itself], oder so
 https://www.google.de/ oder so
@@ -262,6 +275,10 @@ https://www.google.de/ oder so
 ````
 Einfachste Weise einen Link einzufügen:
 [Google](https://www.google.de/)
+
+Alternativ:
+Sobald man mit der Maus über den Link hovert, wird Name angezeigt
+[Google](https://www.google.de/ "Google")
 
 Man kann Links auch so darstellen
 [google.de], oder so
@@ -272,11 +289,11 @@ https://www.google.de/ oder so
 
 Images
 
-````
+```
 Google Logo:
 
 ![alt text] (https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
-````
+```
 
 Google Logo
 
