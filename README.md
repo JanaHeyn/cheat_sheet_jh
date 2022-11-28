@@ -24,7 +24,7 @@ code | englisch | deutsch
 *cd -*|Change directory to the last path | Zum letzten Arbeitspfad wechseln
 *sudo reboot* | Reboot system | System neu starten
 *sudo halt* | Shutdown system| System herunterfahren
----
+***
 
 ## File Manipulation
 
@@ -85,7 +85,6 @@ Alt-H1
 
 Alt-H2
 ------
-
 ***
 
 ### Emphasis
@@ -122,10 +121,9 @@ oder so
 Durchgestrichen mit zwei ~~Tilden~~
 
 Farbig hervorgehoben mit zwei ==Gleichzeichen==
-
 ***
 
-### Horizontal Rule
+### Trennlinien
 
 Absätze werden dargetsellt mit 3 oder mehr
 
@@ -150,11 +148,10 @@ Bindestriche
 
 ___
 Unterstriche
+***
 
+### Line Breaks
 
-
-Line Breaks
---
 Hier startet der Text.
 
 Ich füge nun einen Absatz mit zwei Zeilenumbrüchen ein (zweimal Enter).
@@ -164,7 +161,7 @@ Dies ist auch ein eigener Absatz.
 Mit Trennung durch einen Zeilenumbruch, ist der zweite Satz im Absatz separiert, gehört aber dennoch zu diesem.
 ****
 
-### Lists
+### Listen
 
 ```Codeblock für Listen
 Ordered List (Geordnete Liste)
@@ -193,7 +190,6 @@ Unordered List
 - Zweites Element
 - Drittes Element
     - Erstes Element einer ungeordneten Unterliste
-
 ***
 
 ### Zitate
@@ -203,7 +199,6 @@ Zitate können mit einem Rechtspfeil > eingefügt werden.
 > Zitat 1
 
 > eingerückter Zitat 2
-
 ***
 
 ### Tables
@@ -213,12 +208,13 @@ Zitate können mit einem Rechtspfeil > eingefügt werden.
 | Spalte 1 links zentriert| Spalte 2 centred| Spalte 3 rechts zentriert|
 
 Die äußeren Striche sind nicht nötig, siehe unten:
+
 so      | gehts   | auch
 --------|---------|-----
 *Still* |`renders`| **nicely**
 1       | 2       | 3
 
-Mit einem Doppelpunkt rechts, links oder an beiden Seite innerhalb der Trennlinien können wir abgeben wie die Ausrichtung des Textwes ist.
+Mit einem Doppelpunkt rechts, links oder an beiden Seite innerhalb der Trennlinien wird die Ausrichtung des Textes bestimmt.
 ```
 
 Beispiel
@@ -229,6 +225,7 @@ Beispiel
 
 
 Die äußeren Striche sind nicht nötig, siehe unten:
+
 so      | gehts   | auch
 --------|---------|-----
 *Still* |`renders`| **nicely**
@@ -239,31 +236,36 @@ so      | gehts   | auch
 ```
 Inline `code` oder auch eine Zeile Code hat Backticks vorne und hinten.
 ````
-Inline `code` hat Backticks vorne und hinten.
+Inline `code` oder auch eine Zeile Code hat Backticks vorne und hinten.
 
 Codebloecke werden entweder mit 3 Backticks am Anfang und am Ende dargestellt oder mit 4 Leerzeichen vor der Raute. Das Verwenden der drei Backticks wird empfohlen. Zudem ist es nicht noetig, nach den Backticks Text zu schreiben, es dient nur der Vereinfachung und Darstellung.
-Doch wenn nach den Backticks "js" geschrieben wird, dann wird es automatisch als javascript erkannt.
+Doch wenn nach den Backticks "js" geschrieben wird, dann wird es automatisch als javascript erkannt und farblich hinterlegt.
 
 
-```js
+Nach den Backticks nichts angegeben:
+```
 console.log("Hallo Welt");
 alert("Hello");
 ```
 
-
+Programmiersprache nach den Backticks angegeben (js):
+```js
+console.log("Hallo Welt");
+alert("Hello");
+```
 ***
+
 ### Links
 
 ```Codeblock für Links
-Einfachste Weise einen Link einzufügen
-[Titel des Links] Link
+Einfachste Weise einen Link einzufügen:
+Titel des Link ins eckigen Klammern + Link in runden Klammern
 [Google](https://www.google.de/)
 
 Alternativ:
 Sobald man mit der Maus über den Link hovert, wird Name angezeigt
 [Titel des Links] Link "Name"
 [Google](https://www.google.de/ "Name")
-
 
 Man kann Links auch so darstellen
 [link text itself], oder so
@@ -281,19 +283,17 @@ Man kann Links auch so darstellen
 [google.de], oder so
 https://www.google.de/ oder so
 <https://www.google.de/>
-
 ***
 
-Images
-
+### Bilder
 ```
+Funktioniert ähnlich wie beim Link, davor wird ein Ausrufezeichen gesetzt gefolgt von eonem Akternativtext, falls das Bild nciht angeziegt werden kann.
 Google Logo:
 
-![alt text] (https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
+![Dies ist das Logo von Google](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 ```
 
-Google Logo
+Google Logo:
 
-![alt text](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
-
+![Dies ist das Logo von Google](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 ***
