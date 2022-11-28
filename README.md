@@ -208,34 +208,31 @@ Zitate können mit einem Rechtspfeil > eingefügt werden.
 
 ### Tables
 ```
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Spalte 1                | Spalte 2        | Spalte 3                 |
+|:------------------------|:---------------:|-------------------------:|
+| Spalte 1 links zentriert| Spalte 2 centred| Spalte 3 rechts zentriert|
 
 Die äußeren Striche sind nicht nötig, siehe unten:
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+so      | gehts   | auch
+--------|---------|-----
+*Still* |`renders`| **nicely**
+1       | 2       | 3
+
+Mit einem Doppelpunkt rechts, links oder an beiden Seite innerhalb der Trennlinien können wir abgeben wie die Ausrichtung des Textwes ist.
 ```
 
 Beispiel
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
+| Spalte 1                | Spalte 2        | Spalte 3                 |
+|:------------------------|:---------------:|-------------------------:|
+| Spalte 1 links zentriert| Spalte 2 centred| Spalte 3 rechts zentriert|
 
 
 Die äußeren Striche sind nicht nötig, siehe unten:
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+so      | gehts   | auch
+--------|---------|-----
+*Still* |`renders`| **nicely**
+1       | 2       | 3
 ***
 
 ### Code and Syntax
