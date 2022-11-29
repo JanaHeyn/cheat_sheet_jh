@@ -249,6 +249,20 @@ Unordered List (unsortierte Liste)
     - Erstes Element einer ungeordneten Unterliste
 ***
 
+### Aufgabenliste
+
+````
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+````
+
+Darstellung
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+***
+
 ### Zitate
 ````
 Zitate können mit einem Rechtspfeil > eingefügt werden.
