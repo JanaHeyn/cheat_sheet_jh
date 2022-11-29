@@ -45,6 +45,18 @@ code | english | deutsch
 *cat > file* | Create a new file with the text you type after | Neue Datei mit Text erstellen
 *cat file*|View the contents of a file| Inhalt einer Datei anzeigen
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
+***
+
+## Git
+
+code | english | deutsch
+--- | --- | ---
+*git clone* | Copy a repo from Github locally | Ein Repo von Github lokal kopieren
+*git add .* | Add changes | Änderungen hinzufügen
+*git commit -m "Place commit here" | Add comment what was changed | Kommentar hinzufügen, was gemacht wurde
+*git push* | | 
+*git status* | | 
+*git log* | | 
 
 ***
 ***
