@@ -59,6 +59,56 @@ code | english | deutsch
 *git log* | List of all activities | Auflistung aller Aktivitäten
 
 ***
+
+### Git & Github 
+Die Commits werden immer auf Englisch geschrieben und mit einem der folgenden Wörter begonnen. Commits sollen eher kurz gehalten werden, durchaus ist es möglich auf die genaue Position oder den spezifischen Namen hinzuweisen.
+- Create
+- Add
+- Change
+- Fix
+- Delete
+
+Wenn ein "Issue" bearbeitet wird damit ein Problem behoben wird, dann wird auf das entsprechende Issue referenziert. 
+
+Dies wird wie folgt dargestellt:
+- Strat mit dem Wort Fix
+- Raute #
+- Semikolon ;
+- Commit Nachricht
+
+```
+Beispiel
+- "Fix #1; Add commit-rules.md file"
+- "Fix #877; Change installation instructions in README.md file"
+```
+
+#### Github
+> Ein privates Repo kann mit "Fork" in eine gewünschte Orga umkopiert werden. 
+
+> Änderungen werden nicht in beiden Repos automatisch gleichzeitig übernommen und müssten dann entsprechend hinzugefügt werden.
+
+##### Ein neues Repo im Temrinal erstellen
+
+````
+echo "# bla" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:JanaHeyn/bla.git
+git push -u origin main
+````
+
+#### Ein bestehendes Repo auf Github "pushen"
+
+```
+git remote add origin git@github.com:JanaHeyn/bla.git
+git branch -M main
+git push -u origin main
+```
+
+
+***
 ***
 ***
 
