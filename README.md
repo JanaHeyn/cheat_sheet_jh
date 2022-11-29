@@ -47,7 +47,8 @@ code | english | deutsch
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
 ***
 
-## Git
+## Git & Github
+### Git Kommandozeile
 
 code | english | deutsch
 --- | --- | ---
@@ -60,9 +61,8 @@ code | english | deutsch
 
 ***
 
-### Git & Github 
-#### Git commits 
-Die Commits werden immer auf Englisch geschrieben und mit einem der folgenden Wörter begonnen. Commits sollen eher kurz gehalten werden, durchaus ist es möglich auf die genaue Position oder den spezifischen Namen hinzuweisen.
+### Git commits 
+Die Commits werden immer auf Englisch geschrieben und mit einem der folgenden Wörter (großgeschrieben) begonnen. Commits sollen eher kurz gehalten werden, durchaus ist es möglich auf die genaue Position oder den spezifischen Namen hinzuweisen.
 - Create
 - Add
 - Change
@@ -70,7 +70,6 @@ Die Commits werden immer auf Englisch geschrieben und mit einem der folgenden W�
 - Delete
 
 Wenn ein "Issue" bearbeitet wird damit ein Problem behoben wird, dann wird auf das entsprechende Issue referenziert. 
-
 Dies wird wie folgt dargestellt:
 - Strat mit dem Wort Fix
 - Raute #
@@ -78,12 +77,12 @@ Dies wird wie folgt dargestellt:
 - Commit Nachricht
 
 ```
-Beispiel
+Beispiel:
 - "Fix #1; Add commit-rules.md file"
 - "Fix #877; Change installation instructions in README.md file"
 ```
 
-#### Github
+##### Privates Repo zu einer Orga hinzufügen
 > Ein privates Repo kann mit "Fork" in eine gewünschte Orga umkopiert werden. 
 
 > Änderungen werden nicht in beiden Repos automatisch gleichzeitig übernommen und müssten dann entsprechend hinzugefügt werden.
