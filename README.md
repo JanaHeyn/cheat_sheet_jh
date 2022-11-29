@@ -53,10 +53,10 @@ code | english | deutsch
 --- | --- | ---
 *git clone* | Copy a repo from Github locally | Ein Repo von Github lokal kopieren
 *git add .* | Add changes | Änderungen hinzufügen
-*git commit -m "Place commit here" | Add comment what was changed | Kommentar hinzufügen, was gemacht wurde
-*git push* | | 
-*git status* | | 
-*git log* | | 
+*git commit -m "Place commit here"* | Add comment what was changed | Kommentar hinzufügen, was gemacht wurde
+*git push* | Copy the file to github | Kopiert die Datei wieder auf Github
+*git status* | Displays the status | Gibt den Status aus
+*git log* | List of all activities | Auflistung aller Aktivitäten
 
 ***
 ***
