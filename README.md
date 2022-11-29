@@ -61,6 +61,7 @@ code | english | deutsch
 ***
 
 ### Git & Github 
+#### Git commits 
 Die Commits werden immer auf Englisch geschrieben und mit einem der folgenden Wörter begonnen. Commits sollen eher kurz gehalten werden, durchaus ist es möglich auf die genaue Position oder den spezifischen Namen hinzuweisen.
 - Create
 - Add
@@ -99,7 +100,7 @@ git remote add origin git@github.com:JanaHeyn/bla.git
 git push -u origin main
 ````
 
-#### Ein bestehendes Repo auf Github "pushen"
+##### Ein bestehendes Repo auf Github "pushen"
 
 ```
 git remote add origin git@github.com:JanaHeyn/bla.git
