@@ -1,13 +1,21 @@
 # cheat_sheet_jh
-## Filesystem Display & Navigation
 
-code | englisch | deutsch
---- | --- | ---
-*.* | the current direcotry | Das aktuelle Verzeichnis ist gemeint
+## Terminal Befehle Allgemein
+code | english | deutsch
+--- | --- | --- |
+*clear* | Deletes the content of the terminal | Löscht den Inhalt ds Terminals
 *q* | Exit command | Exit Befehl
+*echo "Text"* | Outputs a text in the terminal | Gibt einen Text im Terminal aus
+*echo "Text" >> Dateiname | Saves a text to the specified file | Speichert einen Text in der angegebenen Datei ab
+*nano* | Opens the Linux internal text editor | Öffnet den Linux internen Texteditor
 *Befehl + --help* | Display command usage information including available flags and proper syntax | Anzeige von Informationen zur Befehlsverwendung, einschließlich verfügbarer Flags und korrekter Syntax
 *man + Befehl* | Display the manual page of specified command | Zeigt das Manual für angegebenen Befehl an
 *whatis + Befehl* | Display a one line brief summary of specified command | Zeigt eine einzeilige Zusammenfassung des angegebenen Befehls an
+*history* | Prints a log of the previously used commands | Gibt ein log der bsiher benutzten Befehle aus
+
+## Filesystem Display & Navigation
+code | englisch | deutsch
+--- | --- | ---
 *pwd*|Show the present working directory | Zeigt das aktuelle Verzeichnis an
 *ls*|List all the files in a directory | Listet alle Dateien in einem Verzeichnis auf
 *ls -l*|List all files and their details (owner, mtime, size, etc) | Listet alle Dateien dateillierter auf (Rechte, Eigentümer, Mtime, Größe usw.)
@@ -22,6 +30,7 @@ code | englisch | deutsch
 *find . -type f -name '\.*' -print * | Find Dot Files | Zeigt Punkdateien Hiddenfiles an
 *cd* oder *cd ~* | Change to the home directory | Ins Homeverzeichnis wechseln
 *c Doppeltab* | What options are available in the current folder for movement (display of the order) | Welche Möglichlkeiten im aktuellen Ordner zur Bewegung vorhanden sind (Darstellung der Order)
+*.* | the current direcotry | Das aktuelle Verzeichnis ist gemeint
 *cd /:* | Root directory | Root Verzeichnis
 *cd .. oder cd ./..*|Change directory one level up | Eine Verzeichnisebene nach oben wechseln
 *cd ./../../* | Change directory two levels up | geht zwei Ordnerebenen nach oben
@@ -36,22 +45,22 @@ code | englisch | deutsch
 
 code | english | deutsch
 --- | --- | --- |
-*mkdir*|Create a new directory| Neuen Ordner erstellen
-*touch*|Create a new, empty file, or update the modified time of an existing one| Neue Datei erstellen (Dateinamen + Dateiendung mit angeben Bsp.: touch style.css)
+*mkdir [Ordnername]*|Create a new directory| Neuen Ordner erstellen
+*touch [Dateiname.txt]*|Create a new, empty file, or update the modified time of an existing one| Neue Datei erstellen (Dateinamen + Dateiendung mit angeben Bsp.: touch style.css)
 *cp -a* | Copy with all rights | Kopiert mit allen Rechten
-*cp <Dateiname_alt.txt> <Dateiname_neu.txt>* | Copy file with a given name | Eine Datei wird mit entsprechenden Namen dupliziert und kopiert
+*cp [Dateiname_alt.txt] [Dateiname_neu.txt]* | Copy file with a given name | Eine Datei wird mit entsprechenden Namen dupliziert und kopiert
 *mv -rvf* | Move or rename file or directory | Verschieben oder Umbenennen von Dateien und Ordnern
-*mv <Dateiname_alt.txt> <Dateiname_neu.txt>* | Rename File | Dateiname ändern (bewegt den Inhalt einer Datei in eine neue Datei)
+*mv [Dateiname_alt.txt] [Dateiname_neu.txt]* | Rename File | Dateiname ändern (bewegt den Inhalt einer Datei in eine neue Datei)
 *mv -i* | Name change with advance warning | Namensänderung mit Vorwarnung
-*mv <Dateiname.txt> Ordnername* | Move file to folder| Datei in Ordner verschieben 
-*rm* | Delete file | Datei löschen
+*mv [Dateiname.txt] Ordnername* | Move file to folder| Datei in Ordner verschieben 
+*rm [Dateiname]* | Delete file | Datei löschen
 *rmdir* | Delete folder (only if it is empty) | Löscht einen Ordner (nur wenn er leer ist)
 *rm -rf* Ordnername| Delete folder with all contents | Ordner löschen mit allen Inhalten
 *chmod -R 777* | Change the file permissions for a file or directory | Vergibt für User, Gruppe & Anderen für alle Unterverzeichnisse read, write, execute Rechte
 *chmod 777 Verzeichnispfad*| Change the file permission for a special folder |Vergibt für User, Gruppe & Anderen für einen speziellen Ordner read, write, execute Rechte
 *cat > Dateiname* | Create a new file with the text you type after | Neue Datei mit Text erstellen
-*cat Dateiname*|View the contents of a file in the terminal| Inhalt einer Datei wird im Terminal angezeigt
-*cat Dateiname1 Dateiname2 > Dateiname3* | Merges 2 files and their contents into a new file | Fügt 2 Dateien und deren Inhalt zu einer neuen Datei zusammen
+*cat [Dateiname]*|Outputs the contents of a file in the terminal | Gibt den Inhalt einer Datei im Terminal aus
+*cat [Dateiname1] [Dateiname2] > [Dateiname3]* | Merges 2 files and their contents into a new file | Fügt 2 Dateien und deren Inhalt zu einer neuen Datei zusammen
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
 ***
 
@@ -66,8 +75,6 @@ code | english | deutsch
 *git push* | Copy the file to github | Kopiert die Datei wieder auf Github
 *git status* | Displays the status | Gibt den Status aus
 *git log* | List of all activities | Auflistung aller Aktivitäten
-*echo + text* | | Gibt einen Befehl im Terminal aus
-*echo "text" >> Dateiname | | Speichert einen Text in der angegebenen Datei  
 
 ***
 
