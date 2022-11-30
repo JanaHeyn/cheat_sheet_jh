@@ -8,12 +8,16 @@ code | english | deutsch
 *echo "Text"* | Outputs a text in the terminal | Gibt einen Text im Terminal aus
 *echo "Text" >> [Dateiname]* | Saves a text to the specified file | Speichert einen Text in der angegebenen Datei ab
 *nano* | Opens the Linux internal text editor | Öffnet den Linux internen Texteditor
+*[Dateiname.sh]* | | Beim Aufruf von Shellscripten werden die Befehle direkt ausgeführt
 *Befehl + --help* | Display command usage information including available flags and proper syntax | Anzeige von Informationen zur Befehlsverwendung, einschließlich verfügbarer Flags und korrekter Syntax
 *man + Befehl* | Display the manual page of specified command | Zeigt das Manual für angegebenen Befehl an
 *whatis + Befehl* | Display a one line brief summary of specified command | Zeigt eine einzeilige Zusammenfassung des angegebenen Befehls an
 *history* | Prints a log of the previously used commands | Gibt ein log der bsiher benutzten Befehle aus
 *sudo reboot* | Reboot system | System neu starten
 *sudo halt* | Shutdown system| System herunterfahren
+
+> **Beispiel zum Shellscript**: `sh testdatei.sh`
+***
 
 ## Filesystem Display & Navigation
 code | englisch | deutsch
@@ -65,7 +69,7 @@ code | english | deutsch
 *cat [Dateiname1] [Dateiname2] > [Dateiname3]* | Merges 2 files and their contents into a new file | Fügt 2 Dateien und deren Inhalt zu einer neuen Datei zusammen
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
 
-> Tipp: Eine Datei immer mit einer Leerzeile abspeichern
+> **Info**: Eine Datei immer mit einer Leerzeile abspeichern
 ***
 
 ## Git & Github
@@ -79,7 +83,6 @@ code | english | deutsch
 *git push* | Copy the file to github | Kopiert die Datei wieder auf Github
 *git status* | Displays the status | Gibt den Status aus
 *git log* | List of all activities | Auflistung aller Aktivitäten
-
 ***
 
 ### Git commits 
