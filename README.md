@@ -28,7 +28,6 @@ code | englisch | deutsch
 *cd ./../Ordnername* | Opens a specific folder one level above the current folder (Gewschister folder) | Öffnet einen spezifischen Ordner eine Ebene über dem aktuellen Ordner (Gewschisterordner)
 *cd ./Ordnername1/Ordnername2* | Opens a specific folder, within another specific folder above it. | Öffnet einen spezifischen Ordner, innerhalb eines anderen darüberliegenden spezifsichen Ordners   
 *cd -*|Change directory to the last path | Zum letzten Arbeitspfad wechseln
-
 *sudo reboot* | Reboot system | System neu starten
 *sudo halt* | Shutdown system| System herunterfahren
 ***
@@ -44,7 +43,7 @@ code | english | deutsch
 *mv -rvf* | Move or rename file or directory | Verschieben oder Umbenennen von Dateien und Ordnern
 *mv <Dateiname_alt.txt> <Dateiname_neu.txt>* | Rename File | Dateiname ändern (bewegt den Inhalt einer Datei in eine neue Datei)
 *mv -i* | Name change with advance warning | Namensänderung mit Vorwarnung
-*mv <dateiname.txt> Ordnername* | Move file to folder| Datei in Ordner verschieben 
+*mv <Dateiname.txt> Ordnername* | Move file to folder| Datei in Ordner verschieben 
 *rm* | Delete file | Datei löschen
 *rmdir* | Delete folder (only if it is empty) | Löscht einen Ordner (nur wenn er leer ist)
 *rm -rf* Ordnername| Delete folder with all contents | Ordner löschen mit allen Inhalten
