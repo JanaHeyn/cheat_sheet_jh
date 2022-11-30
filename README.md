@@ -20,9 +20,15 @@ code | englisch | deutsch
 *rsync*|Synchronize the changes of one directory to another | Änderungen eines Verzeichnisses mit einem anderen Verzeichnis synchronisieren
 *diskutil list* |List all disks and partitions| Alle Plsatten und Partitionen anzeien
 *find . -type f -name '\.*' -print * | Find Dot Files | Zeigt Punkdateien Hiddenfiles an
-*cd*|Change directory to some other location | Zu einem anderen Verzeichnis wechseln
-*cd ..*|Change directory one level up | Eine Verzeichnisebene nach oben wechseln
+*cd* oder *cd ~* | Change to the home directory | Ins Homeverzeichnis wechseln
+*c Doppeltab* | What options are available in the current folder for movement (display of the order) | Welche Möglichlkeiten im aktuellen Ordner zur Bewegung vorhanden sind (Darstellung der Order)
+*cd /:* | Root directory | Root Verzeichnis
+*cd .. oder cd ./..*|Change directory one level up | Eine Verzeichnisebene nach oben wechseln
+*cd ./../../* | Change directory two levels up | geht zwei Ordnerebenen nach oben
+*cd ./../Ordnername* | Opens a specific folder one level above the current folder (Gewschister folder) | Öffnet einen spezifischen Ordner eine Ebene über dem aktuellen Ordner (Gewschisterordner)
+*cd ./Ordnername1/Ordnername2* | Opens a specific folder, within another specific folder above it. | Öffnet einen spezifischen Ordner, innerhalb eines anderen darüberliegenden spezifsichen Ordners   
 *cd -*|Change directory to the last path | Zum letzten Arbeitspfad wechseln
+
 *sudo reboot* | Reboot system | System neu starten
 *sudo halt* | Shutdown system| System herunterfahren
 ***
@@ -36,11 +42,12 @@ code | english | deutsch
 *cp -a* | Copy with all rights | Kopiert mit allen Rechten
 *cp <Dateiname_alt.txt> <Dateiname_neu.txt>* | Copy file with a given name | Eine Datei wird mit entsprechenden Namen dupliziert und kopiert
 *mv -rvf* | Move or rename file or directory | Verschieben oder Umbenennen von Dateien und Ordnern
-*mv <Dateiname_alt.txt> <Dateiname_neu.txt>* | Rename File | Dateiname ändern, aber wenn es den Dateinamen schon gibt, wird die Datei überschrieben
+*mv <Dateiname_alt.txt> <Dateiname_neu.txt>* | Rename File | Dateiname ändern (bewegt den Inhalt einer Datei in eine neue Datei)
 *mv -i* | Name change with advance warning | Namensänderung mit Vorwarnung
 *mv <dateiname.txt> Ordnername* | Move file to folder| Datei in Ordner verschieben 
 *rm* | Delete file | Datei löschen
-*rm -rf* Ordnername| Delete folder | Ordner löschen
+*rmdir* | Delete folder (only if it is empty) | Löscht einen Ordner (nur wenn er leer ist)
+*rm -rf* Ordnername| Delete folder with all contents | Ordner löschen mit allen Inhalten
 *chmod -R 777* | Change the file permissions for a file or directory | Vergibt für User, Gruppe & Anderen für alle Unterverzeichnisse read, write, execute Rechte
 *chmod 777 Verzeichnispfad*| Change the file permission for a special folder |Vergibt für User, Gruppe & Anderen für einen speziellen Ordner read, write, execute Rechte
 *cat > Dateiname* | Create a new file with the text you type after | Neue Datei mit Text erstellen
