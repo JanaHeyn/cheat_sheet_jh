@@ -10,9 +10,10 @@ code | englisch | deutsch
 *whatis + Befehl* | Display a one line brief summary of specified command | Zeigt eine einzeilige Zusammenfassung des angegebenen Befehls an
 *pwd*|Show the present working directory | Zeigt das aktuelle Verzeichnis an
 *ls*|List all the files in a directory | Listet alle Dateien in einem Verzeichnis auf
-*ls -l*|List all files and their details (owner, mtime, size, etc) | Listet alle Dateien dateillierter auf (Eigentümer, Mtime, Größe usw.)
+*ls -l*|List all files and their details (owner, mtime, size, etc) | Listet alle Dateien dateillierter auf (Rechte, Eigentümer, Mtime, Größe usw.)
 *ls -a*|List all the files in a directory (including hidden files) | Listet alle Dateien in einem Verzeichnis auf (einschließlich versteckter Dateien)
 *ls -la* | List all files and hidden files and their details| Alle Dateien, auch versteckte Dateinen, werden detalliert angezeigt
+*ls -R* | Displays the contents of the current folder and its subfolders | Zeigt den Inhalt des aktuallen Ordners und dessen Unterordner an
 *file*|View the type of any file | Zeigt den Typ einer beliebigen Datei an
 *du -sh* | Shows the size of the current directory| Zeigt die Größe des aktuellen Verzeichnisses an
 *diff -qr Pfad1 Pfad2* | Compare contents of two folders | Inhalte von zwei Ordnern vergleichen
@@ -42,8 +43,9 @@ code | english | deutsch
 *rm -rf* Ordnername| Delete folder | Ordner löschen
 *chmod -R 777* | Change the file permissions for a file or directory | Vergibt für User, Gruppe & Anderen für alle Unterverzeichnisse read, write, execute Rechte
 *chmod 777 Verzeichnispfad*| Change the file permission for a special folder |Vergibt für User, Gruppe & Anderen für einen speziellen Ordner read, write, execute Rechte
-*cat > file* | Create a new file with the text you type after | Neue Datei mit Text erstellen
-*cat file*|View the contents of a file| Inhalt einer Datei anzeigen
+*cat > Dateiname* | Create a new file with the text you type after | Neue Datei mit Text erstellen
+*cat Dateiname*|View the contents of a file in the terminal| Inhalt einer Datei wird im Terminal angezeigt
+*cat Dateiname1 Dateiname2 > Dateiname3* | Merges 2 files and their contents into a new file | Fügt 2 Dateien und deren Inhalt zu einer neuen Datei zusammen
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
 ***
 
@@ -58,6 +60,8 @@ code | english | deutsch
 *git push* | Copy the file to github | Kopiert die Datei wieder auf Github
 *git status* | Displays the status | Gibt den Status aus
 *git log* | List of all activities | Auflistung aller Aktivitäten
+*echo + text* | | Gibt einen Befehl im Terminal aus
+*echo "text" >> Dateiname | | Speichert einen Text in der angegebenen Datei  
 
 ***
 
