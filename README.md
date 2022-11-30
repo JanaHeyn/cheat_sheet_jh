@@ -6,12 +6,14 @@ code | english | deutsch
 *clear* | Deletes the content of the terminal | Löscht den Inhalt ds Terminals
 *q* | Exit command | Exit Befehl
 *echo "Text"* | Outputs a text in the terminal | Gibt einen Text im Terminal aus
-*echo "Text" >> Dateiname | Saves a text to the specified file | Speichert einen Text in der angegebenen Datei ab
+*echo "Text" >> [Dateiname]* | Saves a text to the specified file | Speichert einen Text in der angegebenen Datei ab
 *nano* | Opens the Linux internal text editor | Öffnet den Linux internen Texteditor
 *Befehl + --help* | Display command usage information including available flags and proper syntax | Anzeige von Informationen zur Befehlsverwendung, einschließlich verfügbarer Flags und korrekter Syntax
 *man + Befehl* | Display the manual page of specified command | Zeigt das Manual für angegebenen Befehl an
 *whatis + Befehl* | Display a one line brief summary of specified command | Zeigt eine einzeilige Zusammenfassung des angegebenen Befehls an
 *history* | Prints a log of the previously used commands | Gibt ein log der bsiher benutzten Befehle aus
+*sudo reboot* | Reboot system | System neu starten
+*sudo halt* | Shutdown system| System herunterfahren
 
 ## Filesystem Display & Navigation
 code | englisch | deutsch
@@ -37,8 +39,8 @@ code | englisch | deutsch
 *cd ./../Ordnername* | Opens a specific folder one level above the current folder (Gewschister folder) | Öffnet einen spezifischen Ordner eine Ebene über dem aktuellen Ordner (Gewschisterordner)
 *cd ./Ordnername1/Ordnername2* | Opens a specific folder, within another specific folder above it. | Öffnet einen spezifischen Ordner, innerhalb eines anderen darüberliegenden spezifsichen Ordners   
 *cd -*|Change directory to the last path | Zum letzten Arbeitspfad wechseln
-*sudo reboot* | Reboot system | System neu starten
-*sudo halt* | Shutdown system| System herunterfahren
+*less [Dateiname] | Displays the contents of a file in lines. The content is displayed shcritt by step | Zeigt den Inhalt einer Datei in Zeilen an. Der Inhalt wird Shcritt für Schritt angezeigt
+*more [Dateiname] | Like less. In addition, the remaining text is still displayed | Wie less. Zudem wird noch der übrige Text angezeigt
 ***
 
 ## File Manipulation
@@ -62,6 +64,8 @@ code | english | deutsch
 *cat [Dateiname]*|Outputs the contents of a file in the terminal | Gibt den Inhalt einer Datei im Terminal aus
 *cat [Dateiname1] [Dateiname2] > [Dateiname3]* | Merges 2 files and their contents into a new file | Fügt 2 Dateien und deren Inhalt zu einer neuen Datei zusammen
 *greb*|View the contents of a file that match a pattern | Zeigen Sie den Inhalt einer Datei an, die einem Muster entspricht
+
+> Tipp: Eine Datei immer mit einer Leerzeile abspeichern
 ***
 
 ## Git & Github
