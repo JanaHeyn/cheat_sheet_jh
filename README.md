@@ -16,7 +16,10 @@ code | english | deutsch
 *sudo reboot* | Reboot system | System neu starten
 *sudo halt* | Shutdown system| System herunterfahren
 
+
 > **Beispiel zum Shellscript**: `sh testdatei.sh`
+
+
 ***
 
 ## Filesystem Display & Navigation
@@ -35,7 +38,7 @@ code | englisch | deutsch
 *diskutil list* |List all disks and partitions| Alle Plsatten und Partitionen anzeien
 *find . -type f -name '\.*' -print * | Find Dot Files | Zeigt Punkdateien Hiddenfiles an
 *cd* oder *cd ~* | Change to the home directory | Ins Homeverzeichnis wechseln
-*c Doppeltab* | What options are available in the current folder for movement (display of the order) | Welche Möglichlkeiten im aktuellen Ordner zur Bewegung vorhanden sind (Darstellung der Order)
+*cd Doppeltab* | What options are available in the current folder for movement (display of the order) | Welche Möglichlkeiten im aktuellen Ordner zur Bewegung vorhanden sind (Darstellung der Order)
 *.* | the current direcotry | Das aktuelle Verzeichnis ist gemeint
 *cd /:* | Root directory | Root Verzeichnis
 *cd .. oder cd ./..*|Change directory one level up | Eine Verzeichnisebene nach oben wechseln
