@@ -90,7 +90,7 @@ code | english | deutsch
 *git switch [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
 *git checkout [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
 *gut checkout -b [branchname]* | Creates new branch and switches directly to it | Legt neue Branch an und wechselt direkt dorthin
-*git fetch --all* | Fetches all remote branches that have not yet been merged. | Holt alle Remote Branches, die noch nicht gemerged wurden
+*git fetch --all* | Fetches all remote branches that have not yet been merged | Holt alle Remote Branches, die noch nicht gemerged wurden
 ***
 
 ### Git commits 
