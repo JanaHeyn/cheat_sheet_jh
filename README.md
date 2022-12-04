@@ -84,12 +84,13 @@ code | english | deutsch
 *git add .* | Add changes | Änderungen hinzufügen
 *git commit -m "Place commit here"* | Add comment what was changed | Kommentar hinzufügen, was gemacht wurde
 *git push* | Copy the file to github | Kopiert die Datei wieder auf Github
+*git pull* |  | 
 *git status* | Displays the status | Gibt den Status aus
 *git log* | List of all activities | Auflistung aller Aktivitäten
 *git branch -a* | Displays all branches and where you are located | Zeigt alle Branches an und wo man sich befindet
 *git switch [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
 *git checkout [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
-*gut checkout -b [branchname]* | Creates new branch and switches directly to it | Legt neue Branch an und wechselt direkt dorthin
+*git checkout -b [branchname]* | Creates new branch and switches directly to it | Legt neue Branch an und wechselt direkt dorthin
 *git fetch --all* | Fetches all remote branches that have not yet been merged | Holt alle Remote Branches, die noch nicht gemerged wurden
 ***
 
