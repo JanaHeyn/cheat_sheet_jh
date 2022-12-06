@@ -7,7 +7,7 @@ code | english | deutsch
 *q* | Exit command | Exit Befehl
 *echo "Text"* | Outputs a text in the terminal | Gibt einen Text im Terminal aus
 *echo "Text" >> [Dateiname]* | Saves a text to the specified file | Speichert einen Text in der angegebenen Datei ab
-*nano* | Opens the Linux internal text editor | Öffnet den Linux internen Texteditor
+*nano [Dateiname]* | Opens a file in the Linux internal text editor | Öffnet eine Datei im Linux internen Texteditor
 *[Dateiname.sh]* | | Beim Aufruf von Shellscripten werden die Befehle direkt ausgeführt
 *Befehl + --help* | Display command usage information including available flags and proper syntax | Anzeige von Informationen zur Befehlsverwendung, einschließlich verfügbarer Flags und korrekter Syntax
 *man + Befehl* | Display the manual page of specified command | Zeigt das Manual für angegebenen Befehl an
