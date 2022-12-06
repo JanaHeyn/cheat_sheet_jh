@@ -161,6 +161,8 @@ git push -u origin main
 12. Git pull
 ```
 
+![Stage](working_stage_local.png)
+
 
 ***
 ***
@@ -416,7 +418,7 @@ https://www.google.de/ oder so
 
 ### Bilder
 ```
-Funktioniert ähnlich wie beim Link, davor wird ein Ausrufezeichen gesetzt gefolgt von eonem Akternativtext, falls das Bild nciht angeziegt werden kann.
+Funktioniert ähnlich wie beim Link, davor wird ein Ausrufezeichen gesetzt gefolgt von eonem Alternativtext, falls das Bild nicht angeziegt werden kann.
 Google Logo
 
 ![Dies ist das Logo von Google](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
@@ -426,3 +428,6 @@ Google Logo
 
 ![Dies ist das Logo von Google](https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 ***
+
+
+[def]: /home/dci-student/Documents/module/01_bdl/notizen/working_stage_local.png
