@@ -92,6 +92,7 @@ code | english | deutsch
 *git checkout [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
 *git checkout -b [branchname]* | Creates new branch and switches directly to it | Legt neue Branch an und wechselt direkt dorthin
 *git fetch --all* | Fetches all remote branches that have not yet been merged | Holt alle Remote Branches, die noch nicht gemerged wurden
+*git branch --set-upstream-to=origin* | | muss immer für jeden Branch esrtellt werden
 ***
 
 ### Git commits 
@@ -102,9 +103,9 @@ Die Commits werden immer auf Englisch geschrieben und mit einem der folgenden W�
 - Fix
 - Delete
 
-Wenn ein "Issue" bearbeitet wird damit ein Problem behoben wird, dann wird auf das entsprechende Issue referenziert. 
+Wenn ein "Issue" bearbeitet wird, damit ein Problem behoben wird, dann wird auf das entsprechende Issue referenziert. 
 Dies wird wie folgt dargestellt:
-- Strat mit dem Wort Fix
+- Start mit dem Wort Fix
 - Raute #
 - Semikolon ;
 - Commit Nachricht
@@ -115,12 +116,14 @@ Beispiel:
 - "Fix #877; Change installation instructions in README.md file"
 ```
 
+
+
 ##### Privates Repo zu einer Orga hinzufügen
 > Ein privates Repo kann mit "Fork" in eine gewünschte Orga umkopiert werden. 
 
 > Änderungen werden nicht in beiden Repos automatisch gleichzeitig übernommen und müssten dann entsprechend hinzugefügt werden.
 
-##### Ein neues Repo im Temrinal erstellen
+##### Ein neues Repo im Terminal (lokal) erstellen
 
 ````
 echo "# bla" >> README.md
@@ -138,6 +141,22 @@ git push -u origin main
 git remote add origin git@github.com:JanaHeyn/bla.git
 git branch -M main
 git push -u origin main
+```
+##### Beispiel für Github Workround
+
+```
+1. Git clone oder git pull
+2. Neues Branch erstellen (jana-create-chapter)
+3. Ändern der Datei
+4. git add . / oder git add Dateiname
+5. git commit
+6. git push
+7. Github: Create pull request -> dann Squash&Merge
+8. Klare Augabe schreiben
+9.Confirm squash&merge
+10. Brnach löschen
+11. swith zum anderen branch wieder
+12. Git pull
 ```
 
 
