@@ -155,7 +155,7 @@ git push -u origin main
 8. Klare Augabe schreiben
 9. Confirm squash&merge
 10. Branch löschen
-11. swith zum anderen branch wieder
+11. Switch zum anderen branch wieder
 12. Git pull
 ```
 
