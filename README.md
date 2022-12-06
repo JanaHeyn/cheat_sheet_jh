@@ -92,7 +92,9 @@ code | english | deutsch
 *git checkout [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
 *git checkout -b [branchname]* | Creates new branch and switches directly to it | Legt neue Branch an und wechselt direkt dorthin
 *git fetch --all* | Fetches all remote branches that have not yet been merged | Holt alle Remote Branches, die noch nicht gemerged wurden
-*git branch --set-upstream-to=origin* | | muss immer für jeden Branch esrtellt werden
+*git branch --set-upstream-to=origin* | | muss immer für jeden Branch erstellt werden
+*git restore [Dateiname]* | | Nach der Bearbeitung einer Datei (aber vor dem stagen und committen) wird die Bearbeitung zum leztzten commit rueckgaengig gemacht
+*git reset [Dateiname]* | | Nach der Bearbeitung und nach dem stagen einer Datei (git add .), wird mit git reset [Dateiname] die Datei aus der Stage-Area herausgenommen (von Stage-Area zur Working-Directory | wie git add . nur anders herum)
 ***
 
 ### Git commits 
