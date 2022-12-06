@@ -153,8 +153,8 @@ git push -u origin main
 6. git push
 7. Github: Create pull request -> dann Squash&Merge
 8. Klare Augabe schreiben
-9.Confirm squash&merge
-10. Brnach löschen
+9. Confirm squash&merge
+10. Branch löschen
 11. swith zum anderen branch wieder
 12. Git pull
 ```
