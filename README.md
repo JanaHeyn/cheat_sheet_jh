@@ -56,7 +56,7 @@ code | english | deutsch
 --- | --- | --- |
 *mkdir [Ordnername]*|Create a new directory| Neuen Ordner erstellen
 *touch [Dateiname.txt]*|Create a new, empty file, or update the modified time of an existing one| Neue Datei erstellen (Dateinamen + Dateiendung mit angeben Bsp.: touch style.css)
-*cp -a* | Copy with all rights | Kopiert mit allen Rechten
+*cp -a* | Copy with all rights | Kopiert mit allen Rechten (mit nur cp kann kein Ordner kopiert werden, nmur eine Datei!)
 *cp [Dateiname_alt.txt] [Dateiname_neu.txt]* | Copy file with a given name | Eine Datei wird mit entsprechenden Namen dupliziert und kopiert
 *mv -rvf* | Move or rename file or directory | Verschieben oder Umbenennen von Dateien und Ordnern
 *mv [Dateiname_alt.txt] [Dateiname_neu.txt]* | Rename File | Dateiname ändern (bewegt den Inhalt einer Datei in eine neue Datei)
@@ -84,7 +84,7 @@ code | english | deutsch
 *git add .* | Add changes | Änderungen hinzufügen
 *git commit -m "Place commit here"* | Add comment what was changed | Kommentar hinzufügen, was gemacht wurde
 *git push* | Copy the file to github | Kopiert die Datei wieder auf Github
-*git pull* |  | 
+*git pull* | Download content from a remote repository and update the local repo | Inhalte von einem Remote-Repository herunterladen und das lokale Repo aktualisieren
 *git status* | Displays the status | Gibt den Status aus
 *git log* | List of all activities | Auflistung aller Aktivitäten
 *git branch -a* | Displays all branches and where you are located | Zeigt alle Branches an und wo man sich befindet
@@ -160,7 +160,7 @@ git push -u origin main
 11. Switch zum anderen branch wieder
 12. Git pull
 ```
-
+##### Begrifflichkeiten bildlich dargestellt
 ![Stage](working_stage_local.png)
 
 
