@@ -117,15 +117,23 @@ Beispiel:
 - "Fix #1; Add commit-rules.md file"
 - "Fix #877; Change installation instructions in README.md file"
 ```
+##### .gitignore Datei:
+```
+Alle Dateien/Verzeichnisse, die hier drin stehen, werden von Github ignoriert,
+bzw. werden erst gar nicht auf ein Remote Repository hochgeladen.
+
+Falls fälschlicherweise eine zu ignorierende Datei hochgeladen wurde, kann man dies beheben:
+- git rm -r --cached [Dateiname]
+- anschließend comitten
+```
 
 
-
-##### Privates Repo zu einer Orga hinzufügen
+##### Privates Repo zu einer Orga hinzufügen:
 > Ein privates Repo kann mit "Fork" in eine gewünschte Orga umkopiert werden. 
 
 > Änderungen werden nicht in beiden Repos automatisch gleichzeitig übernommen und müssten dann entsprechend hinzugefügt werden.
 
-##### Ein neues Repo im Terminal (lokal) erstellen
+##### Ein neues Repo im Terminal (lokal) erstellen:
 
 ````
 echo "# bla" >> README.md
@@ -137,14 +145,14 @@ git remote add origin git@github.com:JanaHeyn/bla.git
 git push -u origin main
 ````
 
-##### Ein bestehendes Repo auf Github "pushen"
+##### Ein bestehendes Repo auf Github "pushen":
 
 ```
 git remote add origin git@github.com:JanaHeyn/bla.git
 git branch -M main
 git push -u origin main
 ```
-##### Beispiel für Github Workround
+##### Beispiel für Github Workround:
 
 ```
 1. Git clone oder git pull
