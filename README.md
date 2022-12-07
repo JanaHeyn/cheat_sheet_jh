@@ -46,8 +46,8 @@ code | englisch | deutsch
 *cd ./../Ordnername* | Opens a specific folder one level above the current folder (Gewschister folder) | Öffnet einen spezifischen Ordner eine Ebene über dem aktuellen Ordner (Gewschisterordner)
 *cd ./Ordnername1/Ordnername2* | Opens a specific folder, within another specific folder above it. | Öffnet einen spezifischen Ordner, innerhalb eines anderen darüberliegenden spezifsichen Ordners   
 *cd -*|Change directory to the last path | Zum letzten Arbeitspfad wechseln
-*less [Dateiname] | Displays the contents of a file in lines. The content is displayed shcritt by step | Zeigt den Inhalt einer Datei in Zeilen an. Der Inhalt wird Shcritt für Schritt angezeigt
-*more [Dateiname] | Like less. In addition, the remaining text is still displayed | Wie less. Zudem wird noch der übrige Text angezeigt
+*less [Dateiname]* | Displays the contents of a file in lines. The content is displayed shcritt by step | Zeigt den Inhalt einer Datei in Zeilen an. Der Inhalt wird Shcritt für Schritt angezeigt
+*more [Dateiname]* | Like less. In addition, the remaining text is still displayed | Wie less. Zudem wird noch der übrige Text angezeigt
 ***
 
 ## File Manipulation
