@@ -35,4 +35,5 @@ Shortcuts
 - Strg + d: Wort markieren und strg+d und wiederholen = die gleichen Wörter werden markiert und können geändert werden
 - Strg + Leertaste: Emmet Vorschläge werden wieder angezeigt
 - Strg + Shift + i: Dokument formatieren
+- Strg + C: In einer Zeile und dann strg + v wird die ganze Zeile kopiert und eingefügt
 ```
