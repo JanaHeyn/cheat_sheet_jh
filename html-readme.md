@@ -22,7 +22,7 @@ div
 ```
 
 ```
-**heading**
+heading
 h1: sollte nur ienmal vorkommen
 hat auch shcon eine semantische Bedeutung
 Das was hier drin steht ist wieder für SEO wichtig (Google Suche)
@@ -30,5 +30,9 @@ Das was hier drin steht ist wieder für SEO wichtig (Google Suche)
 
 ```
 Shortcuts
-
+- Alt + Z: macht einen Zeilumbruch, allerdings nur zur Ansicht
+- Strg + f: Suche
+- Strg + d: Wort markieren und strg+d und wiederholen = die gleichen Wörter werden markiert und können geändert werden
+- Strg + Leertaste: Emmet Vorschläge werden wieder angezeigt
+- Strg + Shift + i: Dokument formatieren
 ```
