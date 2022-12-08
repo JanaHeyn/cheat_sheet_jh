@@ -86,15 +86,15 @@ code | english | deutsch
 *git push* | Copy the file to github | Kopiert die Datei wieder auf Github
 *git pull* | Download content from a remote repository and update the local repo | Inhalte von einem Remote-Repository herunterladen und das lokale Repo aktualisieren
 *git status* | Displays the status | Gibt den Status aus
-*git log* | List of all activities | Auflistung aller Aktivitäten
-*git branch -a* | Displays all branches and where you are located | Zeigt alle Branches an und wo man sich befindet
+*git log* | Listing of all commits with corresponding IDs | Auflistung aller commits mit dazugehörigen IDs
+*git branch (-a)* | Displays all branches and where you are located | Zeigt alle Branches an und wo man sich befindet
 *git switch [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
-*git checkout [branchname]* | Switches to the specified branch | Wechselt zur angegebenen Branch
+*git checkout [branchname]/[commit ID]* | Switches to the specified branch/to a specific commit | Wechselt zur angegebenen Branch bzw zum angegebener commit ID
 *git checkout -b [branchname]* | Creates new branch and switches directly to it | Legt neue Branch an und wechselt direkt dorthin
 *git fetch --all* | Fetches all remote branches that have not yet been merged | Holt alle Remote Branches, die noch nicht gemerged wurden
 *git branch --set-upstream-to=origin* | | muss immer für jeden Branch erstellt werden
-*git restore [Dateiname]* | | Nach der Bearbeitung einer Datei (aber vor dem stagen und committen) wird die Bearbeitung zum letzten commit rueckgaengig gemacht
-*git reset [Dateiname]* | | Nach der Bearbeitung und nach dem stagen einer Datei (git add .), wird mit git reset [Dateiname] die Datei aus der Stage-Area herausgenommen (von Stage-Area zur Working-Directory) / wie git add . nur anders herum)
+*git restore [Dateiname]* | The current edit (in the working dir) is undone & switched to the last commit (in the local repo) | Die aktuelle Bearbeitung (im Working Dir) wird rückgängig gemacht & zum letzten Commit gewechselt (im local Repo)
+*git reset [Dateiname]* | After staging, git reset [filename] removes the file from the stage area so that it is no longer captured/tracked by Git (from stage area -> working directory). | Nach dem stagen wird mit git reset [Dateiname] die Datei aus der Stage-Area herausgenommen, sodass diese nicht mehr von Git erfasst/verfolgt wird (von Stage-Area -> Working-Directory)
 ***
 
 ### Git commits 
